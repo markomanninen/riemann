@@ -1,0 +1,19 @@
+{
+ "description": "A long conversation about one question. How accurately can we predict how many primes there are up to a number x? Gauss found a smooth average in 1795, and Riemann showed in 1859 that the error of that average is set by where the zeros of the zeta function lie. The Riemann Hypothesis says they all lie on the line with real part ½. In autumn 2026 an AI produced a formally verified proof of a weaker statement, which keeps the zeros away from the edge of the strip and gives a smaller error bound than anything proved before.\n\nThis is the podcast edition of the explainer video Predicting Primes. It walks through the same chain at a slower pace, from primes through Euler's product and the zeta function to the zeros and the error, with short excerpts from the interview.\n\nChapters\n0:00 September 30, 2026\n3:37 What is a prime?\n7:21 Has AI solved the Riemann Hypothesis?\n8:48 Gauss and the density of primes\n13:58 π(x), Li(x) and the error\n17:43 The zeta function\n21:16 Euler's product\n25:00 The pole at s = 1\n28:10 The prime counter and the waves from the zeros\n33:27 The map and analytic continuation\n37:21 The chain from primes to the error\n37:57 Where the zeros sit sets the error\n41:34 The Riemann Hypothesis\n44:14 A trillion and half the digits\n48:03 1896 and the century after\n51:18 The AI result of 2026\n54:07 How the AI did it and how Lean checks it\n56:47 Recap\n\nInterview excerpts come from the World Science Festival video \"AI Closes In on the Riemann Hypothesis\", in which Brian Greene talks with Alex Kontorovich (https://youtu.be/ljFZfYZLHj8). They are used for commentary and education, and all rights remain with World Science Festival.\n\nThe conversation was made with NotebookLM from an original script.\n\n© 2026 Marko T. Manninen",
+ "tags": [
+  "Riemann Hypothesis",
+  "prime numbers",
+  "zeta function",
+  "prime number theorem",
+  "quasi-Riemann hypothesis",
+  "AI mathematics",
+  "Lean",
+  "Gauss",
+  "Riemann",
+  "number theory",
+  "math podcast"
+ ],
+ "categoryId": "27",
+ "defaultLanguage": "en",
+ "defaultAudioLanguage": "en"
+}

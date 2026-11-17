@@ -1,0 +1,20 @@
+{
+ "title": "Predicting Primes: The Riemann Hypothesis and the AI Result",
+ "description": "How accurately can we predict how many primes there are up to a number x? Gauss found a smooth estimate around 1795. In 1859 Riemann showed that the error of that estimate depends on where the zeros of one function, the zeta function, lie. The Riemann Hypothesis says they all lie on the line with real part ½, which would make the error as small as possible. It is still unproved.\n\nIn autumn 2026 an AI proved a weaker statement, the quasi-Riemann hypothesis. It keeps every zero inside the strip from 1/8 to 7/8, and for the first time this gives an error bound clearly smaller than anything proved before. This video builds the whole chain step by step, from primes through Euler's product and the zeta function to the zeros and the error, with animations computed from the real zeros.\n\nChapters\n0:00 Introduction\n0:48 Part 1 – The prime number mystery\n3:07 Part 2 – Gauss & the zeta function\n8:02 Excursion – Analytic continuation\n12:57 Part 3 – Riemann & the errors\n15:55 Part 4 – The AI breakthrough\n18:34 Part 5 – Summary of the quest\n19:50 Credits\n\nInterview excerpts come from the World Science Festival video \"AI Closes In on the Riemann Hypothesis\", in which Brian Greene talks with Alex Kontorovich (https://youtu.be/ljFZfYZLHj8). They are used for commentary and education, and all rights remain with World Science Festival.\n\nSources\nQuanta Magazine, 19 October 2026\nOEIS A006880, the number of primes below 10^n\nL. Schoenfeld (1976), the error bound under the Riemann Hypothesis\nB. Riemann (1859)\n\nThe narration voice was made with NotebookLM from an original script. The music was made with Suno and the sound effects with ElevenLabs. The animations are computed with mpmath and matplotlib.\n\n© 2026 Marko T. Manninen",
+ "tags": [
+  "Riemann Hypothesis",
+  "prime numbers",
+  "zeta function",
+  "prime number theorem",
+  "quasi-Riemann hypothesis",
+  "AI mathematics",
+  "Lean",
+  "Gauss",
+  "Riemann",
+  "number theory",
+  "math explainer"
+ ],
+ "categoryId": "27",
+ "defaultLanguage": "en",
+ "defaultAudioLanguage": "en"
+}
