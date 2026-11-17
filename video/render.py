@@ -66,7 +66,7 @@ def render(sched, prefix, idx):
     _o = fig.add_axes([0, 0, 1, 1], zorder=1000); _o.axis("off"); _o.patch.set_alpha(0); _r = Rectangle((0, 0), 1, 1, color=BG, transform=_o.transAxes); _o.add_patch(_r)
     def up(t): up0(t); _r.set_alpha(float(1 - ease(t / 0.35)))
     out = str(build_dir("seg") / f"{prefix}{idx:03d}.mp4"); tmp = out + ".tmp.mp4"
-    w = FFMpegWriter(fps=FPS, codec="libx264", extra_args=["-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p"])
+    w = FFMpegWriter(fps=FPS, codec="libx264", extra_args=["-preset", "medium", "-crf", "15", "-pix_fmt", "yuv420p"])
     with w.saving(fig, tmp, DPI):
         for f in range(f1 - f0): up(f / FPS); w.grab_frame()
     os.replace(tmp, out); plt.close(fig)

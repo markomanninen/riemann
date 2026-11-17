@@ -3,13 +3,15 @@ mpl.use("Agg")
 import matplotlib.pyplot as plt, numpy as np, json
 from matplotlib import font_manager as fm
 from matplotlib.patches import FancyBboxPatch, Rectangle, Circle
-import glob as _g
+import glob as _g, os as _os
 from paths import DATA, FONTS
 for f in fm.findSystemFonts():
     if "Inter" in f: fm.fontManager.addfont(f)
 for f in _g.glob(str(FONTS / "*.ttf")): fm.fontManager.addfont(f)
 mpl.rcParams.update({"font.family": ["Inter", "DejaVu Sans"], "mathtext.fontset": "stix", "axes.unicode_minus": True})
-W, H, DPI, FPS = 12.8, 7.2, 100, 24
+# Output height in pixels: 1080 by default, RIEMANN_HEIGHT=720 for a faster draft render
+HEIGHT = int(_os.environ.get("RIEMANN_HEIGHT", 1080))
+W, H, DPI, FPS = 12.8, 7.2, round(HEIGHT / 7.2), 24
 BG = "#101418"; INK = "#EDE8DA"; MUTED = "#8C9199"; FAINT = "#2A313A"; CARD = "#171C22"; AXIS = "#5A626D"
 BLUE = "#58C4DD"; ORANGE = "#FFD866"; GREEN = "#7BD88F"; RED = "#FF7A6B"; PURPLE = "#B79CF2"; SOFT = "#1B2733"
 HEAD = ["EB Garamond SemiBold", "Inter", "DejaVu Sans"]

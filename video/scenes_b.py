@@ -244,7 +244,7 @@ def S_strip(fig, T, section=4):
 # ================= v6: section cards, narration-synced scenes =================
 def _art(ax, name, crop=0.47):
     im = mpimg.imread(ART / f"{name}.jpg"); w = im.shape[1]; x0 = 16 * crop
-    if name.startswith("part"):
+    if name.startswith("part") or name == "title":
         ax.imshow(im, extent=(0, 16, 0, 9), zorder=-5, aspect="auto", interpolation="bilinear"); ax.set_xlim(0, 16); ax.set_ylim(0, 9); return
     ax.imshow(im[:, int(w * crop):], extent=(x0, 16, 0, 9), zorder=-5, aspect="auto", interpolation="bilinear")
     g = np.zeros((2, 256, 4)); g[..., :3] = mpl.colors.to_rgb(BG); g[..., 3] = np.clip(1.15 - np.linspace(0, 1, 256) * 1.15, 0, 1)[None, :]
