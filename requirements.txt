@@ -1,0 +1,7 @@
+numpy
+matplotlib
+mpmath
+pillow
+soundfile
+# only for scripts/transcribe.py
+sherpa-onnx

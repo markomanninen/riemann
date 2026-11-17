@@ -1,0 +1,24 @@
+# Large media and local working files stay off GitHub
+sources/
+build/
+work/
+
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.opus
+*.flac
+*.part
+*.ytdl
+*.tgz
+*.zip
+
+.DS_Store
+__pycache__/
+
+# Interview and narration transcripts stay local
+transcripts/
