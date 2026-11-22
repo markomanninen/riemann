@@ -1,0 +1,20 @@
+[
+ {
+  "start": 218.3,
+  "end": 264.7,
+  "title": "Checks on the first day, 20 November 2026",
+  "done": [
+   "All 175,187 files compile without errors",
+   "The five theorems use only the three standard axioms",
+   "Lean's own kernel accepts every file",
+   "nanoda accepts the whole proof in about 28 minutes",
+   "con-leche accepts the whole proof in about 3 minutes",
+   "lean4lean accepts every file"
+  ],
+  "running": [
+   "Lean's own kernel on the whole proof in one piece",
+   "Comparator, end to end",
+   "Independent rebuild in a sealed environment"
+  ]
+ }
+]

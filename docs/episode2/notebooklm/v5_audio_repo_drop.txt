@@ -1,0 +1,8 @@
+# Edit list for the repository segment of the round v5 audio, which is joined into the round v4 audio.
+# Each line is a passage that the hosts added and that the script lacks. The wording follows the Whisper transcript.
+The AI didn't just string together basic logic. It constructed vast, towering disciplines of higher mathematics.
+And the fact that the AI built that theory natively within the code from scratch on top of MathLib shows an unbelievable depth of geometric understanding.
+It looks exactly like an automated process iterating through thousands of variations ||| It is the raw, unfiltered output of an alien intellect.
+Yeah, 57,000 times the AI pushed the computer to its computational breaking point.
+so the code can't execute malicious tasks.
+Right. You don't want an AI-generated script secretly reaching out to the internet while you're busy checking its math.

@@ -60,3 +60,31 @@ python3 video/audit.py                 # text placement check, no rendering
 ```
 
 Interview excerpts are used for commentary and education, and all rights to them remain with World Science Festival.
+
+## Part 2, the claimed proof
+
+Part 2 covers the claimed proof of the Riemann Hypothesis that Levent Alpöge published as Lean code on 20 November 2026. It consists of a long NotebookLM audio episode and a NotebookLM explainer video, with short reaction excerpts from YouTube placed at spoken cue lines.
+
+| Path | Contents |
+|---|---|
+| `docs/episode2/episode_script.md` | Script for the long audio episode |
+| `docs/episode2/video_script.md` | Script for the explainer video |
+| `docs/episode2/notebooklm/` | The two generation prompts, `runs.json` with the notebook, source and artifact ids of every round, `rounds.md` with the findings of every round, and the edit lists |
+| `docs/episode2/inserts.json` | The cuts of every reaction insert, with source video, time ranges and captions |
+| `docs/episode2/production_sheet.md` | Source videos, cut points, words and credits of the reaction inserts |
+| `video/episode2_collage.py` | Cuts and captions the reaction inserts, builds the news collage as a mosaic that fills the screen clip by clip, and marks every change of clip in the picture and in the sound |
+| `video/episode2_assemble.py` | Places the inserts into a narration at its cue lines, and cuts the phrases of an optional edit list |
+| `video/episode2_splice.py` | Joins a passage from one narration into another one |
+| `video/episode2_slide_fix.py` | Draws a corrected checklist slide over a wrong slide of a NotebookLM video |
+| `scripts/episode2_run.sh` | One full round, from upload through generation, download, Whisper transcription and check to assembly |
+| `scripts/episode2_check.py` | Checks a transcript against the facts and cue lines of the script |
+| `scripts/subs_to_text.py` | Turns YouTube subtitles into timestamped text for choosing excerpts |
+
+The source videos go into `sources/episode2/video/` and `sources/episode2/heads/`, downloads and transcripts stay in `sources/episode2/` and `transcripts/episode2/`, and results are written to `build/episode2/`. All of these folders are outside git. A round needs `ffmpeg`, `uvx` for the NotebookLM and Whisper tools, and a signed-in NotebookLM profile.
+
+```
+python3 video/episode2_collage.py      # inserts into build/episode2/insert_A.mp4 … insert_D.mp4
+scripts/episode2_run.sh v3             # one round into build/episode2/v3_*_with_inserts.*
+```
+
+Reaction excerpts are used for commentary and education, and all rights to them remain with their makers.

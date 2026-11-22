@@ -1,0 +1,8 @@
+# Edit list for the round v5 video. Each line is a passage that the script lacks or that is wrong.
+# The wording follows the Whisper transcript.
+This explainer asks one big question.
+According to the code, the difference between them is just about 11%.
+which acts as a strict mathematical speed limit,
+that allows mathematicians to move a problem from one space into a simpler one.
+Just for a bit of context, the Langlands program ||| blends number theory with geometric shapes.
+undeniably

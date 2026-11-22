@@ -1,0 +1,8 @@
+# Edit list for the round v4 video. Each line is a phrase that the narrator read aloud from the scene headings.
+Scene 1. The News. 20 November, 2026. Claimed. Checked. Understood.
+Scene 2, where part 1 left us.
+Scene 3. What was announced?
+Scene 4. How a machine checks a proof.
+Scene 5, the shape of the argument.
+Scene 6, the reactions.
+Scene 7, what happens next and the scoreboard.

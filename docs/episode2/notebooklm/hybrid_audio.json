@@ -1,0 +1,7 @@
+{
+ "base": {"audio": "sources/episode2/notebooklm/v4/audio.m4a", "words": "transcripts/episode2/v4/audio.json", "drop": "docs/episode2/notebooklm/v4_audio_drop.txt"},
+ "donor": {"audio": "sources/episode2/notebooklm/v5/audio.m4a", "words": "transcripts/episode2/v5/audio.json", "drop": "docs/episode2/notebooklm/v5_audio_repo_drop.txt"},
+ "before": "Okay, but anyone can write a four-page note making a massive claim, right?",
+ "from": "But to understand how this claim translates into actual certainty, we need to open the code.",
+ "to": "You don't want an AI-generated script secretly reaching out to the internet while you're busy checking its math."
+}

@@ -1,0 +1,81 @@
+{
+ "notebook_id": "7672caa9-e12e-4761-9f49-d73d14226f73",
+ "notebook_title": "Mathematics and the Riemann Hypothesis in the Era of AI",
+ "runs": [
+  {
+   "version": "v1",
+   "started": "2026-11-21T10:17",
+   "audio": {
+    "source_id": "74d86c0b-5090-4dfe-af40-2b642d4e39a4",
+    "artifact_id": "35ef2a5f-0a96-40e2-a127-2a646d60ec1e",
+    "format": "deep_dive",
+    "length": "long"
+   },
+   "video": {
+    "source_id": "da7d921d-40f6-4e19-9acf-b94147f63504",
+    "artifact_id": "b2c0971f-a6f0-4dcd-a9e7-64308ff7c400",
+    "format": "explainer"
+   }
+  },
+  {
+   "version": "v2",
+   "started": "2026-11-21T10:45",
+   "audio": {
+    "source_id": "303a3f88-b97c-4ceb-967c-e4338982bc05",
+    "artifact_id": "1f6bb4f9-be27-414f-b856-d4ada4cf9586",
+    "format": "deep_dive",
+    "length": "long"
+   },
+   "video": {
+    "source_id": "fd4e5b82-c429-4534-80a6-a3caee4892f6",
+    "artifact_id": "9ddb6a2d-82ae-4793-8d0c-365742444208",
+    "format": "explainer"
+   }
+  },
+  {
+   "version": "v3",
+   "started": "2026-11-21T11:14",
+   "audio": {
+    "source_id": "db6a621f-ddf2-4d65-80f8-5ce19750deb3",
+    "artifact_id": "42130796-1e31-41ae-b042-e95dcc7241bc",
+    "format": "deep_dive",
+    "length": "long"
+   },
+   "video": {
+    "source_id": "4f1c36ca-7865-477b-8c76-c261b345e9be",
+    "artifact_id": "340cea5a-5ea6-441d-97e9-310357b6db64",
+    "format": "explainer"
+   }
+  },
+  {
+   "version": "v4",
+   "started": "2026-11-21T20:34",
+   "audio": {
+    "source_id": "fb0d713b-0432-4767-a71a-4a749188a158",
+    "artifact_id": "91c577a7-431f-4ce1-b0f0-4b94d1f2bfd9",
+    "format": "deep_dive",
+    "length": "long"
+   },
+   "video": {
+    "source_id": "d4c0be2d-4f00-472b-b759-835ad81c53e5",
+    "artifact_id": "9e890847-e027-42e8-b5cc-e8fbcb253332",
+    "format": "explainer"
+   }
+  },
+  {
+   "version": "v5",
+   "started": "2026-11-21T23:58",
+   "audio": {
+    "source_id": "03997fea-7a18-4146-b3c9-f5fa2aba7f98",
+    "artifact_id": "aefc4155-7d8f-4d6c-a97a-4ace3b13210f",
+    "format": "deep_dive",
+    "length": "long"
+   },
+   "video": {
+    "source_id": "cfe186e7-fdd3-4717-bc17-086fc78e854a",
+    "artifact_id": "7b12ba34-5758-4516-9ecb-68136bc7e9aa",
+    "format": "explainer"
+   }
+  }
+ ]
+}
